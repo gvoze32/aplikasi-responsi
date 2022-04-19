@@ -11,38 +11,32 @@ import com.example.aplikasi_responsi.setting.SettingFragment
 
 class HomeActivity : AppCompatActivity() {
 
-    private lateinit var btn1 : ImageView
-    private lateinit var btn2 : ImageView
-    private lateinit var btn3 : ImageView
-    private lateinit var btn4 : ImageView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         supportActionBar?.hide()
 
-        btn1 = findViewById(R.id.btnHome)
-        btn2 = findViewById(R.id.btnPayment)
-        btn3 = findViewById(R.id.btnHistory)
-        btn4 = findViewById(R.id.btnSetting)
-
-        btn1.setOnClickListener {
-            loadFragment(HomeFragment())
-        }
-        btn2.setOnClickListener{
-            loadFragment(PaymentFragment())
-        }
-        btn3.setOnClickListener{
-            loadFragment(HistoryFragment())
-        }
-        btn4.setOnClickListener{
-            loadFragment(SettingFragment())
-        }
 }
 
-private fun loadFragment(fragment: Fragment) {
+    fun btnHome(view: ImageView) {
+        loadFragment(HomeFragment())
+    }
+
+    fun btnHistory(view: ImageView) {
+        loadFragment(HistoryFragment())
+    }
+
+    fun btnPayment(view: ImageView) {
+        loadFragment(PaymentFragment())
+    }
+
+    fun btnSetting(view: ImageView) {
+        loadFragment(SettingFragment())
+    }
+
+    private fun loadFragment(fragment: Fragment) {
     supportFragmentManager.beginTransaction()
-        .replace(R.id.frameLayout, fragment)
+        .replace(R.id.container, fragment)
         .commitNow()
 }
 }
