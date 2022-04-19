@@ -11,7 +11,10 @@
         <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/activity_main.xml" value="0.10196078431372549" />
         <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/activity_recovery.xml" value="0.2988505747126437" />
         <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/fragment_history.xml" value="0.17844202898550723" />
         <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/fragment_payment.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/gvoze/AndroidStudioProjects/aplikasi_responsi/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
       </map>
     </option>
   </component>
