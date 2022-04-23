@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/squareborder">
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,6 +36,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
@@ -43,6 +45,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:onClick="btnHome"
+            android:drawableTop="@drawable/icohome"
             android:text="Home" />
 
         <Button
@@ -51,6 +54,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:onClick="btnPayment"
+            android:drawableTop="@drawable/icopayment"
             android:text="Payment" />
 
         <Button
@@ -59,6 +63,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:onClick="btnHistory"
+            android:drawableTop="@drawable/icohistory"
             android:text="History" />
 
         <Button
@@ -67,6 +72,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:onClick="btnSetting"
+            android:drawableTop="@drawable/icosettings"
             android:text="Setting" />
     </LinearLayout>
 
